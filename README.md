@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <me charset="UTF-8">
+    <title>Environment and Technology</title>
 
     <style>
         body {
@@ -165,3 +170,7 @@
         © Copyright 2026   Environment 
     </div>
 
+</div>
+
+</body>
+</html>
