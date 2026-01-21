@@ -1,149 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <me charset="UTF-8">
-    <title>Environment and Technology</title>
+    <meta charset="UTF-8">
+    < title>Environment - Technology & Sustainability</title>
 
     <style>
-        body {
-            background-color: #6b6f72;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 25px;
         }
 
-        .page {
-            width: 640px;
-            margin: auto;
-            background-color: #e9f1ec;
-            border: 4px solid #ffffff;
+        body {
+            background-color: #f0f0f0;
         }
 
-        /* HEADER */
-        .header {
-    height: 140px;
-    background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 30px;
-    padding: 30px;
+        /* Header */
+        .hero {
+            background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 60px 40px;
         }
 
-        .header h1 {
-            margin: 0;
-            letter-spacing: 4px;
+        .hero h1 {
+            font-size: 48px;
+            letter-spacing: 3px;
         }
 
-        .header p {
+        .hero p {
+            font-size: 18px;
             margin-top: 10px;
-            font-size: 14px;
         }
 
-        /* MAIN LAYOUT */
-        .main {
+        /* Layout */
+        .container {
             display: flex;
+            background-color: #f5f5f5;
         }
 
-        /* CONTENT */
+        /* Main Content */
         .content {
-            width: 480px;
-            background-color: #f2f7f4;
-            padding: 20px;
+            width: 70%;
+            padding: 30px;
         }
 
         .content h2 {
-            color: #2b7a5e;
-            margin-top: 10px;
+            color: #3a6f5d;
+            margin-bottom: 10px;
         }
 
         .content p {
+            margin-bottom: 30px;
             line-height: 1.6;
-            color: #2f3e3a;
-            text-align: justify;
+            color: #333;
         }
 
-        /* SIDEBAR */
+        /* Sidebar */
         .sidebar {
-            width: 160px;
-            background-color: #cde6dc;
-            padding: 10px;
-            border-left: 2px dotted #7aa89a;
+            width: 30%;
+            background-color: #dcebe6;
+            padding: 20px;
+            border-left: 2px dotted #aaa;
         }
 
-        .sidebar-title {
-            background-color: #2b7a5e;
+        .sidebar h3 {
+            background-color: #3a6f5d;
             color: white;
-            padding: 6px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            text-align: center;
+            padding: 10px;
+            margin-bottom: 15px;
         }
 
         .sidebar h4 {
-            margin-bottom: 5px;
-            color: #1f4f3c;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            color: #333;
         }
 
         .sidebar ul {
-            padding-left: 18px;
-            margin-top: 0;
+            list-style-type: square;
+            padding-left: 20px;
         }
 
         .sidebar li {
-            margin-bottom: 6px;
+            margin-bottom: 8px;
         }
 
-        /* FOOTER */
-        .footer {
-            height: 70px;
-            background-color: #4f6f63;
+        .sidebar a {
+            text-decoration: underline;
+            color: #1a5fd1;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #3a6f5d;
             color: white;
             text-align: center;
-            line-height: 70px;
-            font-size: 14px;
+            padding: 15px;
         }
     </style>
 </head>
-
 <body>
 
-<div class="page">
-
-    <div class="header">
+    <!-- Header -->
+    <header class="hero">
         <h1>ENVIRONMENT</h1>
         <p>Technology & Sustainability</p>
-    </div>
+    </header>
 
-    <div class="main">
+    <!-- Main Content -->
+    <div class="container">
 
-        <div class="content">
-            <h2>Technology</h2>
-            <p>
-                Technology is the practical application of scientific knowledge to solve
-                problems and improve human life. It supports communication, transportation,
-                healthcare, education, and industrial development in modern society.
-            </p>
+        <main class="content">
+            <section>
+                <h2>Technology</h2>
+                <p>
+                    Technology is the practical application of scientific knowledge to solve problems and improve human life.
+                    It supports communication, transportation, healthcare, education, and industrial development in modern society.
+                </p>
+            </section>
 
-            <h2>Environment</h2>
-            <p>
-                The environment consists of all living and non-living things that surround
-                human beings. These include air, water, land, plants, animals, and natural
-                resources. Human activities greatly affect the balance of the environment.
-            </p>
+            <section>
+                <h2>Environment</h2>
+                <p>
+                    The environment consists of all living and non-living things that surround human beings.
+                    These include air, water, land, plants, animals, and natural resources.
+                    Human activities greatly affect the balance of the environment.
+                </p>
+            </section>
 
-            <h2>Innovation</h2>
-            <p>
-                Innovation involves creating new ideas, tools, or methods that improve
-                efficiency and sustainability. Innovations such as renewable energy and
-                eco-friendly technologies help reduce environmental problems.
-            </p>
-        </div>
+            <section>
+                <h2>Innovation</h2>
+                <p>
+                    Innovation involves creating new ideas, tools, or methods that improve efficiency and sustainability.
+                    Innovations help reduce environmental problems.
+                </p>
+            </section>
+        </main>
 
-        <div class="sidebar">
-            <div class="sidebar-title">Related Topics</div>
+        <aside class="sidebar">
+            <h3>Related Topics</h3>
 
- <h4>Science</h4>
+            <h4>Science</h4>
             <ul>
                 <li><a href="#">Renewable Energy</a></li>
                 <li><a href="#">Climate Change</a></li>
@@ -162,15 +162,14 @@
                 <li><a href="#">UN Environment</a></li>
                 <li><a href="#">Greenpeace</a></li>
             </ul>
-        </div>
+        </aside>
 
     </div>
 
-    <div class="footer">
-        © Copyright 2026   Environment 
-    </div>
-
-</div>
+    <!-- Footer -->
+    <footer>
+        © Copyright 2026 Environment
+    </footer>
 
 </body>
 </html>
